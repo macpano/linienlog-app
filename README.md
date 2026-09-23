@@ -1,30 +1,37 @@
-# Linienlog für Android
+# Linienlog
 
-Linienlog zeichnet Linienfahrten mit dem Handy auf und macht sichtbar, wo Busse Zeit verlieren –
-vor allem an Lichtsignalanlagen. Aus jeder Fahrt entstehen Messwerte: Halte vor Ampeln, Halte
-unterwegs, Verfrühungen, Zeitausgleich, Fahrzeit gegen Fahrplan. Die Auswertung läuft auf dem Gerät,
-die Daten bleiben dort.
+Linienlog zeichnet Linienfahrten auf und macht sichtbar, wo Busse Zeit verlieren – vor allem an
+Lichtsignalanlagen. Aus jeder Fahrt entstehen Messwerte: Halte vor Ampeln, Halte unterwegs,
+Verfrühungen, Zeitausgleich, Fahrzeit gegen Fahrplan. Alles rechnet auf dem eigenen Gerät, die Daten
+bleiben dort.
 
-**Hier liegen nur die fertigen App-Dateien (APK).** Der Quelltext ist nicht veröffentlicht.
+## Herunterladen
 
-## Installieren und aktuell halten mit Obtainium
+| | |
+|---|---|
+| **App für Android (APK)** | [linienlog.apk](https://github.com/macpano/linienlog-app/releases/latest/download/linienlog.apk) |
+| **Webanwendung im Browser** | [macpano.github.io/linienlog-app](https://macpano.github.io/linienlog-app/) |
+| **Webanwendung als Datei** | [Linienlog.html](https://github.com/macpano/linienlog-app/releases/latest/download/Linienlog.html) – herunterladen, doppelklicken, kein Server nötig |
+| **Anleitungen (PDF)** | [für die App](https://github.com/macpano/linienlog-app/releases/latest/download/Linienlog-Anleitung-App.pdf) · [für die Webanwendung](https://github.com/macpano/linienlog-app/releases/latest/download/Linienlog-Anleitung-Web.pdf) |
 
-[Obtainium](https://github.com/ImranR98/Obtainium) holt App-Aktualisierungen direkt von hier, ganz
-ohne Play Store.
+Diese Adressen zeigen immer auf die neueste Fassung und eignen sich zum Weitergeben. Alle
+[Fassungen mit Änderungsnotizen](https://github.com/macpano/linienlog-app/releases) stehen unter
+Releases.
 
-1. Obtainium öffnen und auf **„App hinzufügen“** tippen.
-2. Als Quelle diese Adresse eintragen:
-   ```
-   https://github.com/macpano/linienlog-app
-   ```
-3. Hinzufügen. Obtainium nimmt die APK des neuesten Releases; bei jeder neuen Fassung meldet es sich.
+**Hier liegen nur die fertigen Dateien.** Der Quelltext ist nicht veröffentlicht.
 
-Ohne Obtainium geht es genauso: Unter [Releases](https://github.com/macpano/linienlog-app/releases)
-die APK herunterladen und öffnen. Android fragt einmal, ob es Apps aus dieser Quelle installieren darf.
+## Installieren
 
-Alle Fassungen sind mit demselben Schlüssel signiert und lassen sich übereinander installieren; die
-aufgezeichneten Fahrten bleiben dabei erhalten. Die App sucht außerdem selbst nach Aktualisierungen
-(Einstellungen → „Nach Aktualisierung suchen“), das läuft unabhängig von Obtainium.
+APK antippen; Android fragt einmal, ob es Apps aus dieser Quelle installieren darf. Alle Fassungen
+sind mit demselben Schlüssel signiert und lassen sich übereinander installieren – aufgezeichnete
+Fahrten bleiben dabei erhalten, nur Deinstallieren löscht sie.
+
+## Aktuell bleiben
+
+Beide Anwendungen halten sich selbst aktuell: Linienlog sieht beim Öffnen nach, lädt eine neue
+Fassung im Hintergrund und zeigt oben den Anzeiger **↑ Fassung**. Ein Tipp darauf, dann
+**Installieren** – fertig. Sofort nachsehen lässt sich unter **Einstellungen → Nach Aktualisierung
+suchen**. Eine zusätzliche App dafür ist nicht nötig.
 
 ## Voraussetzungen
 
